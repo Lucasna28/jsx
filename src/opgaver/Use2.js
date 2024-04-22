@@ -19,9 +19,9 @@ export default function Use2() {
     return (
         <Assignment id={"use-2"}>
             <section>
-                <h1></h1>
-                <img src="" />
-                <p></p>
+                <h1>{h1Text}</h1>
+                <img src={lizard} />
+                <p>{pText}</p>
             </section>
         </Assignment>
     );

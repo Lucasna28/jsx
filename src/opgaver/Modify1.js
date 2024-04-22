@@ -19,7 +19,7 @@ export default function Modify1() {
     return (
         <Assignment id={"modify-1"}>
             <section>
-                <h1>Hej, mit navn er {name}</h1>
+                <h1>Hej, mit navn er {parseToTitle(name)}</h1>
             </section>
         </Assignment>
     );
